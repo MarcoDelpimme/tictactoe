@@ -1,0 +1,53 @@
+.board {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
+body {
+  background-image: url("//i.pinimg.com/736x/c2/47/4c/c2474c6f0a5c6d942628ac0b48ae3715.jpg");
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+#status {
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.81);
+}
+
+.title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.81);
+  font-size: 50px;
+}
